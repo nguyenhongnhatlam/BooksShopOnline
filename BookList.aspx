@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Books" Language="C#" MasterPageFile="~/Site.Master"
+﻿<%@ Page Title="Danh sách sản phẩm" Language="C#" MasterPageFile="~/Site.Master"
     AutoEventWireup="true"               
     CodeBehind="BookList.aspx.cs" Inherits="BooksShopOnline.BookList" %> 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">    
@@ -40,7 +40,8 @@
                              <td>     
                                  <a href="BookDetails.aspx?bookID=<%#:Item.BookID%>">  
                                      <img src ="/Images/<%#:Item.ImagePath%>"  
-                                         width="150" height="225" style="border:solid" /></a>
+                                         width="150" height="225" 
+                                         style="border:solid" /></a>
 
                              </td>    
 
@@ -50,14 +51,12 @@
                                  <a href="BookDetails.aspx?bookID=<%#:Item.BookID%>">  
                                      <span>    
                                          <%#:Item.BookName%>  
-
-
-                                     </span>  
+                                     </span>
 
                                  </a>        
                                  <br />      
                                  <span>    
-                                     <b>Price: </b><%#:String.Format("{0:c}",Item.UnitPrice)%>   
+                                     <b>Giá: </b><%#:String.Format("{0:c}",Item.UnitPrice)%>   
 
                                  </span>
 

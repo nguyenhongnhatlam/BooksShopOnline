@@ -21,19 +21,19 @@ namespace BooksShopOnline.Models
                 new Category
                 {
                     CategoryID = 1,
-                    CategoryName = "Fiction"
+                    CategoryName = "Hàng Mẫu"
                 },
                 new Category
         {
-                    CategoryID = 2, CategoryName = "Biographies and Memoirs"
+                    CategoryID = 2, CategoryName = "Hàng Mới"
         },
                 new Category
         {
                     CategoryID = 3,
-                    CategoryName = "Biological Sciences"
+                    CategoryName = "Hàng Giảm Giá"
         },
                 new Category
-        { CategoryID = 4, CategoryName = "Self-Help" } }; return categories; }
+        { CategoryID = 4, CategoryName = "Hàng tặng" } }; return categories; }
         private static List<Book> GetBooks()
         {
             var books = new List<Book>
@@ -42,51 +42,51 @@ namespace BooksShopOnline.Models
  new Book
 {
     BookID = 1,
-   BookName = "Fire & Blood",
- Description = "300 Years Before A Game of Thrones (A Targaryen History) (A Song of Ice and Fire).",
-  ImagePath="Pic1.png",
-  UnitPrice = 16.04f,
+   BookName = "combo apple",
+ Description = "Gồm laptop,Máy in, Tv, ipad,...",
+  ImagePath="hinh1.jpg",
+  UnitPrice = 100.000f,
    CategoryID = 1
      },                
   //book 2     
      new Book
     {
           BookID = 2,
-          BookName = "Benjamin Franklin: An American Life",
-          Description = "In this authoritative and engrossing full-scale biography, Walter Isaacson, " +                     "bestselling author of Einstein and Steve Jobs, shows how the most fascinating of " +                     "America's founders helped define our national character.",                     ImagePath="Pic2.png",
- UnitPrice = 19.60f,
+          BookName = "combo banasonic",
+          Description = "các thiết bị chụp hình ,nghe nhạc ",
+         ImagePath ="hinh2.jpg",
+ UnitPrice = 40.000f,
  CategoryID = 2
  },                
   //book 3               
   new Book
    {
      BookID = 3,
-     BookName = "Obama: An Intimate Portrait",
-    Description = "During Barack Obama's two terms, Pete Souza was with the President " +                     "during more crucial moments than anyone else--and he photographed them all",
-                     ImagePath="Pic3.png",
-        UnitPrice = 26.73f,
+     BookName = "double kĩ thuật số",
+    Description = "bộ đôi điện thoại máy ảnh kĩ thuật số",
+                     ImagePath="images22.jpg",
+        UnitPrice = 26.730f,
          CategoryID = 2
   },               
    //book 4        
          new Book
      {
    BookID = 4,
-       BookName = "Sapiens: A Brief History of Humankind",
+       BookName = "double s6",
 
-               Description = "One hundred thousand years ago, at least six different species of " +                     "humans inhabited Earth. Yet today there is only one—homo sapiens. " +
-  "What happened to the others? And what may happen to us?",                     ImagePath="Pic4.png",
-   UnitPrice = 23.79f,
+               Description = "điện thoại adroi và ios hàng 95%",
+             ImagePath ="iphone-0.jpg",
+   UnitPrice = 45.000f,
   CategoryID = 3
  },               
   //book 5               
   new Book
       {
       BookID = 5,
-                  BookName = "The 7 Habits of Highly Effective People",
-                  Description = "Stephen Covey’s cherished classic commemorates the timeless wisdom and " +
-   "power of the 7 Habits book, and does it in a highly readable and understandable, infographics format.",
-  ImagePath="Pic5.png",
-  UnitPrice = 16.04f,
+                  BookName = "Gấu bông qoobee agapi",
+                  Description = "Hàng tặng không bán",
+  ImagePath="b64a4c1660433cb65501be2eade9caf8.jpg",
+  UnitPrice = 0.0f,
   CategoryID = 4
  },
 

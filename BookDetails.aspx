@@ -1,4 +1,4 @@
-﻿+<%@ Page Title="Book Details" Language="C#" MasterPageFile="~/Site.Master" 
+﻿<%@ Page Title="Book Details" Language="C#" MasterPageFile="~/Site.Master" 
     AutoEventWireup="true" CodeBehind="BookDetails.aspx.cs"
     Inherits="BooksShopOnline.BookDetails" %> 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
@@ -20,11 +20,11 @@
                     </td>    
                     <td>&nbsp;</td>   
                     <td style="vertical-align: top; text-align:left;">  
-                        <b>Description:</b><br /><%#:Item.Description %> 
+                        <b>Thông Tin:</b><br /><%#:Item.Description %> 
                         <br />       
-                        <span><b>Price:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span> 
+                        <span><b>Giá Bán:</b>&nbsp;<%#: String.Format("{0:c}",Item.UnitPrice) %></span> 
                         <br />
-                        <span><b>Book Number:</b>&nbsp;<%#:Item.BookID %></span> 
+                        <span><b>Mã Số:</b>&nbsp;<%#:Item.BookID %></span> 
                         <br /> 
 
                     </td>      
