@@ -11,4 +11,6 @@ _NHấn vào hàng mẫu sẽ hiện các sản phẩm mẫu
 _Nhấn vào hàng mới sã hiện các sản phẩm mới
 <img src="hinhanh/bb.jpg">
 _Nhấn vào giỏ hàng để đặt đơn hàng
-<img src="themvaogiohang.PNG">
+<img src="https://raw.githubusercontent.com/nguyenhongnhatlam/BooksShopOnline/master/images/themvaogiohang.PNG">
+
+Cảm Ơn các bạn đã xem trang wed của mình!!
