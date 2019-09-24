@@ -6,7 +6,7 @@ _Nhấn vào giảm giá sẽ hiện ra các sản phẩm giảm giá
 <img src="hinhanh/aaa.jpg">
 _Nhấn vào giảm giá sẽ hiện các sản phẩm giảm giá
 <img src="hinhanh/asd.jpg">
-_NHấn vào
+_NHấn vào hàng mẫu sẽ hiện các sản phẩm mẫu
 <img src="hinhanh/b.jpg">
-
+_Nhấn vào
 <img src="hinhanh/bb.jpg">
