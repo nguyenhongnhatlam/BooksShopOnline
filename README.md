@@ -8,5 +8,5 @@ _Nhấn vào giảm giá sẽ hiện các sản phẩm giảm giá
 <img src="hinhanh/asd.jpg">
 _NHấn vào hàng mẫu sẽ hiện các sản phẩm mẫu
 <img src="hinhanh/b.jpg">
-_Nhấn vào
+_Nhấn vào hàng mới sã hiện các sản phẩm mới
 <img src="hinhanh/bb.jpg">
