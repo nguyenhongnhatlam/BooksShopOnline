@@ -10,3 +10,5 @@ _NHấn vào hàng mẫu sẽ hiện các sản phẩm mẫu
 <img src="hinhanh/b.jpg">
 _Nhấn vào hàng mới sã hiện các sản phẩm mới
 <img src="hinhanh/bb.jpg">
+_Nhấn vào giỏ hàng để đặt đơn hàng
+<img src="themvaogiohang.PNG">
