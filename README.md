@@ -13,6 +13,6 @@ _Nhấn vào hàng mới sã hiện các sản phẩm mới
 _Nhấn vào giỏ hàng để đặt đơn hàng
 <img src="https://raw.githubusercontent.com/nguyenhongnhatlam/BooksShopOnline/master/images/themvaogiohang.PNG">
 Sua lai giao dien:
-<img src="hinhanh/Capture.jpg">
+<img src="hinhanh/Capture.png">
 
 Cảm Ơn các bạn đã xem trang wed của mình!!
